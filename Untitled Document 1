@@ -1,0 +1,17 @@
+ void deposit(double amnt)
+ {
+  balance = balance +amnt;
+ }
+ double withdraw (double amnt)
+ {
+  balance=balance-amnt;
+  reutrn balance;
+ }
+ static void rdisplay()
+ {
+  System.out.print("Rate of interest ="+r);
+ }
+ void display()
+ {
+  System.out.print ("Name="+name+"\nBalance ="+amnt);
+ }
